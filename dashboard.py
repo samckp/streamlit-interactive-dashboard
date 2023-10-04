@@ -18,3 +18,12 @@ else:
 
 df
 
+
+pn.extension()
+
+df.interactive(width=600).head(n=pn.widgets.IntSlider(start=1, end=5, value=3))
+
+hvplot.help(kind='scatter')
+
+
+
