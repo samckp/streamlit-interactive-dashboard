@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
 import panel as pn
-pn.extension('tabulator')
 
 import hvplot.pandas
+
+
+pn.extension('tabulator')
+
 
 # cache data to improve dashboard performance
 if 'data' not in pn.state.cache.keys():
